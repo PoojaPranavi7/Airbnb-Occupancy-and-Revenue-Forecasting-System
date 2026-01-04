@@ -1,0 +1,59 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+
+# -----------------------
+# OS / Editor
+# -----------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------
+# Notebooks / scratch
+# -----------------------
+notebooks/temp.py
+
+# -----------------------
+# Data (DO NOT COMMIT)
+# -----------------------
+data/raw/
+data/processed/
+data/features/
+data/forecasts/
+
+# If you want to keep small samples later:
+# !data/sample/
+
+# -----------------------
+# Models (DO NOT COMMIT)
+# -----------------------
+models/*.joblib
+models/*.pkl
+
+# Allow small feature metadata JSON
+!models/*.json
+
+# -----------------------
+# Reports (allow JSON; block big tables)
+# -----------------------
+reports/*.parquet
+reports/*.csv
+
+# -----------------------
+# Streamlit
+# -----------------------
+.streamlit/
